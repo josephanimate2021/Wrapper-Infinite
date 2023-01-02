@@ -117,14 +117,19 @@ exports.load = async function(mId) {
  * @returns {string}
  */
 exports.save = function(data, starter = false) {
-	const mode = starter ? "starter" : "movie";
-	var thumb;
-	const body = Buffer.from(data.body_zip, "base64");
-	if (data.save_thumbnail) thumb = Buffer.from(data.thumbnail, "base64");
-	else thumb = this.generateThumbFromUrl();
-	const id = !data.movieId ? fUtil.generateId() : data.movieId;
-	fs.writeFileSync(`${id}.zip`, body);
-	fs.writeFileSync(`./saved/movies/${mode}-${id}.png`, thumb);
-	this.unzipXmls(id, mode);
-	return id;
+	try {
+		const mode = starter ? "starter" : "movie";
+		var thumb;
+		const body = Buffer.from(data.body_zip, "base64");
+		if (data.save_thumbnail) thumb = Buffer.from(data.thumbnail, "base64");
+		else thumb = this.generateThumbFromUrl();
+		const id = !data.movieId ? fUtil.generateId() : data.movieId;
+		fs.writeFileSync(`${id}.zip`, body);
+		fs.writeFileSync(`./saved/movies/${mode}-${id}.png`, thumb);
+		this.unzipXmls(id, mode);
+		return id;
+	} catch (e) {
+		console.log(e);
+		return;
+	}
 };
