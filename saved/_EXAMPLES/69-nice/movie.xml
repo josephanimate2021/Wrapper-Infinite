@@ -1,0 +1,2819 @@
+<?xml version="1.0"?>
+<film copyable="0" duration="121.0" published="1" pshare="0" isWide="1">
+  <meta>
+    <title>Caillou moves away from his dad</title>
+    <tag><![CDATA[]]></tag>
+    <hiddenTag><![CDATA[]]></hiddenTag>
+    <desc></desc>
+    <mver><![CDATA[4]]></mver>
+    <studio>d610ecad596ff902648a0b5da505f08f2e1e90a6</studio>
+    <thumbnail index="0"/>
+    <palette>
+      <color value="333333"/>
+      <color value="999999"/>
+      <color value="fbfbfb"/>
+      <color value="669999"/>
+      <color value="55bbaa"/>
+      <color value="7fbb11"/>
+      <color value="15709b"/>
+      <color value="9a5d1"/>
+      <color value="6ab8d6"/>
+      <color value="da2021"/>
+      <color value="fecd31"/>
+    </palette>
+  </meta>
+  <scene id="SCENE0" adelay="192" lock="N" index="0" color="16777215" guid="732FE15F-7374-96DF-E5B2-C5D62673D3BB" combgId="custom.cbg_sittingroom">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_sittingroom_BG260" index="0">
+      <file>custom.sitting_room_bg.swf</file>
+    </bg>
+    <char id="AVATOR1858" index="5" raceCode="1">
+      <action face="-1" motionface="1">ugc.284733506.sad.xml</action>
+      <head id="PROP11" raceCode="1">
+        <file>ugc.284733506.head.head_sad.xml</file>
+      </head>
+      <x>131.7</x>
+      <y>253.1</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="cbg_sittingroom_PROP74" index="1" attached="Y">
+      <file>custom.sitting_room_lamp.swf</file>
+      <x>446</x>
+      <y>246</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP8" index="2" attached="Y">
+      <file>custom.sitting_room_sofa2.swf</file>
+      <x>290</x>
+      <y>256</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_sittingroom_PROP75" index="3" attached="Y">
+      <file>custom.sitting_room_plant.swf</file>
+      <x>107</x>
+      <y>245</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP9" index="4" attached="Y">
+      <file>custom.sitting_room_sofa.swf</file>
+      <x>561</x>
+      <y>279</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT3" themecode="common" index="6">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+    <trans id="null" index="7">
+      <fx dur="24" type="fl.Fade.out" ease="null"/>
+    </trans>
+  </scene>
+  <scene id="SCENE1" adelay="60" lock="N" index="1" color="16777215" guid="9C9018F7-5C44-8117-C553-87F4811B5F68">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_sittingroom_BG260" index="0">
+      <file>custom.sitting_room_bg.swf</file>
+    </bg>
+    <char id="AVATOR1858" index="5" raceCode="1">
+      <action face="-1" motionface="1">ugc.284733506.stand.xml</action>
+      <head id="PROP15" raceCode="1">
+        <file>ugc.284733506.head.head_surprised.xml</file>
+      </head>
+      <x>131.7</x>
+      <y>253.1</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="cbg_sittingroom_PROP74" index="1" attached="Y">
+      <file>custom.sitting_room_lamp.swf</file>
+      <x>446</x>
+      <y>246</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP8" index="2" attached="Y">
+      <file>custom.sitting_room_sofa2.swf</file>
+      <x>290</x>
+      <y>256</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_sittingroom_PROP75" index="3" attached="Y">
+      <file>custom.sitting_room_plant.swf</file>
+      <x>107</x>
+      <y>245</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP9" index="4" attached="Y">
+      <file>custom.sitting_room_sofa.swf</file>
+      <x>561</x>
+      <y>279</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT3" themecode="common" index="6">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE2" adelay="123" lock="N" index="2" color="16777215" guid="AB0B07C1-D754-FBA7-3619-937CE3B1C476">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_sittingroom_BG260" index="0">
+      <file>custom.sitting_room_bg.swf</file>
+    </bg>
+    <char id="AVATOR1858" index="5" raceCode="1">
+      <action face="-1" motionface="1">ugc.284733506.stand.xml</action>
+      <head id="PROP29" raceCode="1">
+        <file>ugc.284733506.head.head_surprised.xml</file>
+      </head>
+      <x>131.7</x>
+      <y>253.1</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="cbg_sittingroom_PROP74" index="1" attached="Y">
+      <file>custom.sitting_room_lamp.swf</file>
+      <x>446</x>
+      <y>246</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP8" index="2" attached="Y">
+      <file>custom.sitting_room_sofa2.swf</file>
+      <x>290</x>
+      <y>256</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_sittingroom_PROP75" index="3" attached="Y">
+      <file>custom.sitting_room_plant.swf</file>
+      <x>107</x>
+      <y>245</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP9" index="4" attached="Y">
+      <file>custom.sitting_room_sofa.swf</file>
+      <x>561</x>
+      <y>279</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT3" themecode="common" index="6">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE3" adelay="144" lock="N" index="3" color="16777215" guid="25B8F43D-B87B-4457-8730-D6FE2188E1F6">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_sittingroom_BG260" index="0">
+      <file>custom.sitting_room_bg.swf</file>
+    </bg>
+    <char id="AVATOR1858" index="5" raceCode="1">
+      <action face="-1" motionface="1">ugc.284733506.dance.xml</action>
+      <head id="PROP33" raceCode="1">
+        <file>ugc.284733506.head.head_talk_happy.xml</file>
+      </head>
+      <x>131.7</x>
+      <y>253.1</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="cbg_sittingroom_PROP74" index="1" attached="Y">
+      <file>custom.sitting_room_lamp.swf</file>
+      <x>446</x>
+      <y>246</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP8" index="2" attached="Y">
+      <file>custom.sitting_room_sofa2.swf</file>
+      <x>290</x>
+      <y>256</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_sittingroom_PROP75" index="3" attached="Y">
+      <file>custom.sitting_room_plant.swf</file>
+      <x>107</x>
+      <y>245</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP9" index="4" attached="Y">
+      <file>custom.sitting_room_sofa.swf</file>
+      <x>561</x>
+      <y>279</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT3" themecode="common" index="6">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE4" adelay="87" lock="N" index="4" color="16777215" guid="8B207F72-0E48-C28E-ADB6-9A6E422F2FB3">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_sittingroom_BG260" index="0">
+      <file>custom.sitting_room_bg.swf</file>
+    </bg>
+    <char id="AVATOR1858" index="5" raceCode="1">
+      <action face="-1,-1" motionface="-1">ugc.284733506.run.xml</action>
+      <head id="PROP55" raceCode="1">
+        <file>ugc.284733506.head.head_happy.xml</file>
+      </head>
+      <x>131.7,647.1</x>
+      <y>253.1,256</y>
+      <xscale>1,1</xscale>
+      <yscale>1,1</yscale>
+      <rotation>0,0</rotation>
+      <assetMotion ver="2"/>
+    </char>
+    <prop id="cbg_sittingroom_PROP74" index="1" attached="Y">
+      <file>custom.sitting_room_lamp.swf</file>
+      <x>446</x>
+      <y>246</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP8" index="2" attached="Y">
+      <file>custom.sitting_room_sofa2.swf</file>
+      <x>290</x>
+      <y>256</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_sittingroom_PROP75" index="3" attached="Y">
+      <file>custom.sitting_room_plant.swf</file>
+      <x>107</x>
+      <y>245</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP9" index="4" attached="Y">
+      <file>custom.sitting_room_sofa.swf</file>
+      <x>561</x>
+      <y>279</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT3" themecode="common" index="6">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+    <aTranList>
+      <aTran id="120" target="AVATOR1858" type="MotionPath" atype="Character" direction="2" section="6" timing="3" duration="24" delay="0">null</aTran>
+    </aTranList>
+  </scene>
+  <scene id="SCENE6" adelay="60" lock="N" index="5" color="16777215" guid="ACEEF53E-2949-5EDF-20EB-484E1D05026B" combgId="common.cbg_ncc_house">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_ncc_house_BG7" index="0">
+      <file>common.ncc_low.swf</file>
+      <color r="colorB">10066329</color>
+      <color r="colorA">10079283</color>
+    </bg>
+    <char id="AVATOR1858" index="16" raceCode="1">
+      <action face="-1,-1" motionface="-1">ugc.284733506.walk.xml</action>
+      <head id="PROP60" raceCode="1">
+        <file>ugc.284733506.head.head_happy.xml</file>
+      </head>
+      <x>170.9,406.8</x>
+      <y>233,238.8</y>
+      <xscale>1,1</xscale>
+      <yscale>1,1</yscale>
+      <rotation>0,0</rotation>
+      <assetMotion ver="2"/>
+    </char>
+    <prop id="PROP38" index="1" attached="Y">
+      <file>common.bushes.swf</file>
+      <x>384.2</x>
+      <y>177.5</y>
+      <xscale>2.06</xscale>
+      <yscale>2.06</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP39" index="2" attached="Y">
+      <file>common.ncc_hhouse02.swf</file>
+      <x>571.3</x>
+      <y>123.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP40" index="3" attached="Y">
+      <file>common.bushes.swf</file>
+      <x>432</x>
+      <y>207.5</y>
+      <xscale>1.2</xscale>
+      <yscale>1.2</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP41" index="4" attached="Y">
+      <file>common.ncc_hhouse01.swf</file>
+      <x>150.7</x>
+      <y>119.2</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP42" index="5" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>638.5</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP43" index="6" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>542.8</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP44" index="7" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>444.5</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP45" index="8" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>346.8</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP46" index="9" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>186.7</x>
+      <y>249.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP47" index="10" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath02.swf</file>
+      <x>249.5</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP48" index="11" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>153.5</x>
+      <y>283.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP49" index="12" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>56.4</x>
+      <y>283.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP50" index="13" attached="Y">
+      <file>common.msp_ncc_hsign.msp_ncc_hsign_ncc_hsign03.swf</file>
+      <x>117.7</x>
+      <y>238.8</y>
+      <xscale>0.65</xscale>
+      <yscale>0.65</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP51" index="14" attached="Y">
+      <file>common.msp_ncc_hsign.msp_ncc_hsign_ncc_hsign01.swf</file>
+      <x>292.9</x>
+      <y>218.4</y>
+      <xscale>1.17</xscale>
+      <yscale>1.17</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP52" index="15" attached="Y">
+      <file>common.ncc_htree.swf</file>
+      <x>552.2</x>
+      <y>127.5</y>
+      <xscale>0.8</xscale>
+      <yscale>0.8</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT3" themecode="common" index="17">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+    <aTranList>
+      <aTran id="121" target="AVATOR1858" type="MotionPath" atype="Character" direction="2" section="6" timing="3" duration="24" delay="0">null</aTran>
+    </aTranList>
+  </scene>
+  <scene id="SCENE8" adelay="78" lock="N" index="6" color="16777215" guid="3A478292-48F0-C126-76A4-35D70BA48852">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_ncc_house_BG7" index="0">
+      <file>common.ncc_low.swf</file>
+      <color r="colorB">10066329</color>
+      <color r="colorA">10079283</color>
+    </bg>
+    <char id="AVATOR1858" index="16" raceCode="1">
+      <action face="-1" motionface="1">ugc.284733506.stand.xml</action>
+      <head id="PROP86" raceCode="1">
+        <file>ugc.284733506.head.head_shocked.xml</file>
+      </head>
+      <x>406.8</x>
+      <y>238.8</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR1984" index="17" raceCode="1">
+      <action face="-1" motionface="1">ugc.284733881.stand.xml</action>
+      <head id="PROP64" raceCode="1">
+        <file>ugc.284733881.head.head_talk_angry.xml</file>
+      </head>
+      <x>129.3</x>
+      <y>238.8</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="PROP38" index="1" attached="Y">
+      <file>common.bushes.swf</file>
+      <x>384.2</x>
+      <y>177.5</y>
+      <xscale>2.06</xscale>
+      <yscale>2.06</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP39" index="2" attached="Y">
+      <file>common.ncc_hhouse02.swf</file>
+      <x>571.3</x>
+      <y>123.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP40" index="3" attached="Y">
+      <file>common.bushes.swf</file>
+      <x>432</x>
+      <y>207.5</y>
+      <xscale>1.2</xscale>
+      <yscale>1.2</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP41" index="4" attached="Y">
+      <file>common.ncc_hhouse01.swf</file>
+      <x>150.7</x>
+      <y>119.2</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP42" index="5" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>638.5</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP43" index="6" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>542.8</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP44" index="7" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>444.5</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP45" index="8" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>346.8</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP46" index="9" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>186.7</x>
+      <y>249.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP47" index="10" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath02.swf</file>
+      <x>249.5</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP48" index="11" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>153.5</x>
+      <y>283.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP49" index="12" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>56.4</x>
+      <y>283.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP50" index="13" attached="Y">
+      <file>common.msp_ncc_hsign.msp_ncc_hsign_ncc_hsign03.swf</file>
+      <x>117.7</x>
+      <y>238.8</y>
+      <xscale>0.65</xscale>
+      <yscale>0.65</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP51" index="14" attached="Y">
+      <file>common.msp_ncc_hsign.msp_ncc_hsign_ncc_hsign01.swf</file>
+      <x>292.9</x>
+      <y>218.4</y>
+      <xscale>1.17</xscale>
+      <yscale>1.17</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP52" index="15" attached="Y">
+      <file>common.ncc_htree.swf</file>
+      <x>552.2</x>
+      <y>127.5</y>
+      <xscale>0.8</xscale>
+      <yscale>0.8</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT3" themecode="common" index="18">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE9" adelay="114" lock="N" index="7" color="16777215" guid="CE226B3D-22CA-B4EC-6C20-DC5D038E4281">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_ncc_house_BG7" index="0">
+      <file>common.ncc_low.swf</file>
+      <color r="colorB">10066329</color>
+      <color r="colorA">10079283</color>
+    </bg>
+    <char id="AVATOR1858" index="16" raceCode="1">
+      <action face="1" motionface="1">ugc.284733506.stand.xml</action>
+      <head id="PROP105" raceCode="1">
+        <file>ugc.284733506.head.head_talk_angry.xml</file>
+      </head>
+      <x>406.8</x>
+      <y>238.8</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR1984" index="17" raceCode="1">
+      <action face="-1" motionface="1">ugc.284733881.stand.xml</action>
+      <head id="PROP108" raceCode="1">
+        <file>ugc.284733881.head.head_angry.xml</file>
+      </head>
+      <x>129.3</x>
+      <y>238.8</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="PROP38" index="1" attached="Y">
+      <file>common.bushes.swf</file>
+      <x>384.2</x>
+      <y>177.5</y>
+      <xscale>2.06</xscale>
+      <yscale>2.06</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP39" index="2" attached="Y">
+      <file>common.ncc_hhouse02.swf</file>
+      <x>571.3</x>
+      <y>123.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP40" index="3" attached="Y">
+      <file>common.bushes.swf</file>
+      <x>432</x>
+      <y>207.5</y>
+      <xscale>1.2</xscale>
+      <yscale>1.2</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP41" index="4" attached="Y">
+      <file>common.ncc_hhouse01.swf</file>
+      <x>150.7</x>
+      <y>119.2</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP42" index="5" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>638.5</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP43" index="6" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>542.8</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP44" index="7" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>444.5</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP45" index="8" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>346.8</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP46" index="9" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>186.7</x>
+      <y>249.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP47" index="10" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath02.swf</file>
+      <x>249.5</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP48" index="11" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>153.5</x>
+      <y>283.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP49" index="12" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>56.4</x>
+      <y>283.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP50" index="13" attached="Y">
+      <file>common.msp_ncc_hsign.msp_ncc_hsign_ncc_hsign03.swf</file>
+      <x>117.7</x>
+      <y>238.8</y>
+      <xscale>0.65</xscale>
+      <yscale>0.65</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP51" index="14" attached="Y">
+      <file>common.msp_ncc_hsign.msp_ncc_hsign_ncc_hsign01.swf</file>
+      <x>292.9</x>
+      <y>218.4</y>
+      <xscale>1.17</xscale>
+      <yscale>1.17</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP52" index="15" attached="Y">
+      <file>common.ncc_htree.swf</file>
+      <x>552.2</x>
+      <y>127.5</y>
+      <xscale>0.8</xscale>
+      <yscale>0.8</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT3" themecode="common" index="18">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE10" adelay="72" lock="N" index="8" color="16777215" guid="639F7FB9-ACE0-4748-AD41-B16B20C60BF1">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_ncc_house_BG7" index="0">
+      <file>common.ncc_low.swf</file>
+      <color r="colorB">10066329</color>
+      <color r="colorA">10079283</color>
+    </bg>
+    <char id="AVATOR1858" index="16" raceCode="1">
+      <action face="1" motionface="1">ugc.284733506.stand.xml</action>
+      <head id="PROP144" raceCode="1">
+        <file>ugc.284733506.head.head_angry.xml</file>
+      </head>
+      <x>406.8</x>
+      <y>238.8</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR1984" index="17" raceCode="1">
+      <action face="-1" motionface="1">ugc.284733881.stand.xml</action>
+      <head id="PROP146" raceCode="1">
+        <file>ugc.284733881.head.head_talk_angry.xml</file>
+      </head>
+      <x>129.3</x>
+      <y>238.8</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="PROP38" index="1" attached="Y">
+      <file>common.bushes.swf</file>
+      <x>384.2</x>
+      <y>177.5</y>
+      <xscale>2.06</xscale>
+      <yscale>2.06</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP39" index="2" attached="Y">
+      <file>common.ncc_hhouse02.swf</file>
+      <x>571.3</x>
+      <y>123.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP40" index="3" attached="Y">
+      <file>common.bushes.swf</file>
+      <x>432</x>
+      <y>207.5</y>
+      <xscale>1.2</xscale>
+      <yscale>1.2</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP41" index="4" attached="Y">
+      <file>common.ncc_hhouse01.swf</file>
+      <x>150.7</x>
+      <y>119.2</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP42" index="5" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>638.5</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP43" index="6" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>542.8</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP44" index="7" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>444.5</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP45" index="8" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>346.8</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP46" index="9" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>186.7</x>
+      <y>249.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP47" index="10" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath02.swf</file>
+      <x>249.5</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP48" index="11" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>153.5</x>
+      <y>283.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP49" index="12" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>56.4</x>
+      <y>283.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP50" index="13" attached="Y">
+      <file>common.msp_ncc_hsign.msp_ncc_hsign_ncc_hsign03.swf</file>
+      <x>117.7</x>
+      <y>238.8</y>
+      <xscale>0.65</xscale>
+      <yscale>0.65</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP51" index="14" attached="Y">
+      <file>common.msp_ncc_hsign.msp_ncc_hsign_ncc_hsign01.swf</file>
+      <x>292.9</x>
+      <y>218.4</y>
+      <xscale>1.17</xscale>
+      <yscale>1.17</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP52" index="15" attached="Y">
+      <file>common.ncc_htree.swf</file>
+      <x>552.2</x>
+      <y>127.5</y>
+      <xscale>0.8</xscale>
+      <yscale>0.8</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT3" themecode="common" index="18">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE11" adelay="102" lock="N" index="9" color="16777215" guid="2E6EC245-C898-4D11-4E52-B624E3BBFB3B">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_ncc_house_BG7" index="0">
+      <file>common.ncc_low.swf</file>
+      <color r="colorB">10066329</color>
+      <color r="colorA">10079283</color>
+    </bg>
+    <char id="AVATOR1858" index="16" raceCode="1">
+      <action face="1" motionface="1">ugc.284733506.stand.xml</action>
+      <head id="PROP141" raceCode="1">
+        <file>ugc.284733506.head.head_talk_angry.xml</file>
+      </head>
+      <x>406.8</x>
+      <y>238.8</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR1984" index="17" raceCode="1">
+      <action face="-1" motionface="1">ugc.284733881.stand.xml</action>
+      <head id="PROP142" raceCode="1">
+        <file>ugc.284733881.head.head_angry.xml</file>
+      </head>
+      <x>129.3</x>
+      <y>238.8</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="PROP38" index="1" attached="Y">
+      <file>common.bushes.swf</file>
+      <x>384.2</x>
+      <y>177.5</y>
+      <xscale>2.06</xscale>
+      <yscale>2.06</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP39" index="2" attached="Y">
+      <file>common.ncc_hhouse02.swf</file>
+      <x>571.3</x>
+      <y>123.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP40" index="3" attached="Y">
+      <file>common.bushes.swf</file>
+      <x>432</x>
+      <y>207.5</y>
+      <xscale>1.2</xscale>
+      <yscale>1.2</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP41" index="4" attached="Y">
+      <file>common.ncc_hhouse01.swf</file>
+      <x>150.7</x>
+      <y>119.2</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP42" index="5" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>638.5</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP43" index="6" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>542.8</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP44" index="7" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>444.5</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP45" index="8" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>346.8</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP46" index="9" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>186.7</x>
+      <y>249.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP47" index="10" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath02.swf</file>
+      <x>249.5</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP48" index="11" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>153.5</x>
+      <y>283.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP49" index="12" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>56.4</x>
+      <y>283.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP50" index="13" attached="Y">
+      <file>common.msp_ncc_hsign.msp_ncc_hsign_ncc_hsign03.swf</file>
+      <x>117.7</x>
+      <y>238.8</y>
+      <xscale>0.65</xscale>
+      <yscale>0.65</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP51" index="14" attached="Y">
+      <file>common.msp_ncc_hsign.msp_ncc_hsign_ncc_hsign01.swf</file>
+      <x>292.9</x>
+      <y>218.4</y>
+      <xscale>1.17</xscale>
+      <yscale>1.17</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP52" index="15" attached="Y">
+      <file>common.ncc_htree.swf</file>
+      <x>552.2</x>
+      <y>127.5</y>
+      <xscale>0.8</xscale>
+      <yscale>0.8</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT3" themecode="common" index="18">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE14" adelay="60" lock="N" index="10" color="16777215" guid="CCFF1754-E864-7C8F-10CC-9145263F43F0">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_ncc_house_BG7" index="0">
+      <file>common.ncc_low.swf</file>
+      <color r="colorB">10066329</color>
+      <color r="colorA">10079283</color>
+    </bg>
+    <char id="AVATOR1858" index="16" raceCode="1">
+      <action face="-1,-1" motionface="-1">ugc.284733506.run.xml</action>
+      <head id="PROP223" raceCode="1">
+        <file>ugc.284733506.head.head_angry.xml</file>
+      </head>
+      <x>406.8,695.5</x>
+      <y>238.8,230</y>
+      <xscale>1,1</xscale>
+      <yscale>1,1</yscale>
+      <rotation>0,0</rotation>
+      <assetMotion ver="2"/>
+    </char>
+    <char id="AVATOR1984" index="17" raceCode="1">
+      <action face="-1" motionface="1">ugc.284733881.stand.xml</action>
+      <head id="PROP197" raceCode="1">
+        <file>ugc.284733881.head.head_angry.xml</file>
+      </head>
+      <x>129.3</x>
+      <y>238.8</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="PROP38" index="1" attached="Y">
+      <file>common.bushes.swf</file>
+      <x>384.2</x>
+      <y>177.5</y>
+      <xscale>2.06</xscale>
+      <yscale>2.06</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP39" index="2" attached="Y">
+      <file>common.ncc_hhouse02.swf</file>
+      <x>571.3</x>
+      <y>123.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP40" index="3" attached="Y">
+      <file>common.bushes.swf</file>
+      <x>432</x>
+      <y>207.5</y>
+      <xscale>1.2</xscale>
+      <yscale>1.2</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP41" index="4" attached="Y">
+      <file>common.ncc_hhouse01.swf</file>
+      <x>150.7</x>
+      <y>119.2</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP42" index="5" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>638.5</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP43" index="6" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>542.8</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP44" index="7" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>444.5</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP45" index="8" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>346.8</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP46" index="9" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>186.7</x>
+      <y>249.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP47" index="10" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath02.swf</file>
+      <x>249.5</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP48" index="11" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>153.5</x>
+      <y>283.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP49" index="12" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>56.4</x>
+      <y>283.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP50" index="13" attached="Y">
+      <file>common.msp_ncc_hsign.msp_ncc_hsign_ncc_hsign03.swf</file>
+      <x>117.7</x>
+      <y>238.8</y>
+      <xscale>0.65</xscale>
+      <yscale>0.65</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP51" index="14" attached="Y">
+      <file>common.msp_ncc_hsign.msp_ncc_hsign_ncc_hsign01.swf</file>
+      <x>292.9</x>
+      <y>218.4</y>
+      <xscale>1.17</xscale>
+      <yscale>1.17</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP52" index="15" attached="Y">
+      <file>common.ncc_htree.swf</file>
+      <x>552.2</x>
+      <y>127.5</y>
+      <xscale>0.8</xscale>
+      <yscale>0.8</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT3" themecode="common" index="18">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+    <aTranList>
+      <aTran id="124" target="AVATOR1858" type="MotionPath" atype="Character" direction="2" section="6" timing="3" duration="24" delay="0">null</aTran>
+    </aTranList>
+  </scene>
+  <scene id="SCENE15" adelay="60" lock="N" index="11" color="16777215" guid="A4E63363-6B48-B555-C260-8D3EBB6AE3CE">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_ncc_house_BG7" index="0">
+      <file>common.ncc_low.swf</file>
+      <color r="colorB">10066329</color>
+      <color r="colorA">10079283</color>
+    </bg>
+    <char id="AVATOR1858" index="16" raceCode="1">
+      <action face="-1" motionface="1">ugc.284733506.stand.xml</action>
+      <head id="PROP225" raceCode="1">
+        <file>ugc.284733506.head.head_angry.xml</file>
+      </head>
+      <x>695.5</x>
+      <y>230</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR1984" index="17" raceCode="1">
+      <action face="-1,-1" motionface="-1">ugc.284733881.run.xml</action>
+      <head id="PROP75" raceCode="1">
+        <file>ugc.284733881.head.head_angry.xml</file>
+      </head>
+      <x>129.3,429.1</x>
+      <y>238.8,238.8</y>
+      <xscale>1,1</xscale>
+      <yscale>1,1</yscale>
+      <rotation>0,0</rotation>
+      <assetMotion ver="2"/>
+    </char>
+    <prop id="PROP38" index="1" attached="Y">
+      <file>common.bushes.swf</file>
+      <x>384.2</x>
+      <y>177.5</y>
+      <xscale>2.06</xscale>
+      <yscale>2.06</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP39" index="2" attached="Y">
+      <file>common.ncc_hhouse02.swf</file>
+      <x>571.3</x>
+      <y>123.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP40" index="3" attached="Y">
+      <file>common.bushes.swf</file>
+      <x>432</x>
+      <y>207.5</y>
+      <xscale>1.2</xscale>
+      <yscale>1.2</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP41" index="4" attached="Y">
+      <file>common.ncc_hhouse01.swf</file>
+      <x>150.7</x>
+      <y>119.2</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP42" index="5" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>638.5</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP43" index="6" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>542.8</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP44" index="7" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>444.5</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP45" index="8" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>346.8</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP46" index="9" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>186.7</x>
+      <y>249.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP47" index="10" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath02.swf</file>
+      <x>249.5</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP48" index="11" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>153.5</x>
+      <y>283.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP49" index="12" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>56.4</x>
+      <y>283.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP50" index="13" attached="Y">
+      <file>common.msp_ncc_hsign.msp_ncc_hsign_ncc_hsign03.swf</file>
+      <x>117.7</x>
+      <y>238.8</y>
+      <xscale>0.65</xscale>
+      <yscale>0.65</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP51" index="14" attached="Y">
+      <file>common.msp_ncc_hsign.msp_ncc_hsign_ncc_hsign01.swf</file>
+      <x>292.9</x>
+      <y>218.4</y>
+      <xscale>1.17</xscale>
+      <yscale>1.17</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP52" index="15" attached="Y">
+      <file>common.ncc_htree.swf</file>
+      <x>552.2</x>
+      <y>127.5</y>
+      <xscale>0.8</xscale>
+      <yscale>0.8</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT3" themecode="common" index="18">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+    <aTranList>
+      <aTran id="126" target="AVATOR1984" type="MotionPath" atype="Character" direction="2" section="6" timing="3" duration="24" delay="0">null</aTran>
+    </aTranList>
+  </scene>
+  <scene id="SCENE16" adelay="60" lock="N" index="12" color="16777215" guid="1EBD20FC-224E-A727-2ECB-DEA99C162061" combgId="custom.cbg_subwaystaton">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_subwaystaton_BG246" index="0">
+      <file>custom.subway_station_bg.swf</file>
+    </bg>
+    <char id="AVATOR1858" index="9" raceCode="1">
+      <action face="1,1" motionface="1">ugc.284733506.run.xml</action>
+      <head id="PROP241" raceCode="1">
+        <file>ugc.284733506.head.head_angry.xml</file>
+      </head>
+      <x>547,413.7</x>
+      <y>166.6,252.7</y>
+      <xscale>0.61,1.08</xscale>
+      <yscale>0.61,1.08</yscale>
+      <rotation>0,0</rotation>
+      <assetMotion ver="2"/>
+    </char>
+    <prop id="PROP49" index="1" attached="Y">
+      <file>custom.subway_station_train.swf</file>
+      <x>74</x>
+      <y>201</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP42" index="2" attached="Y">
+      <file>custom.subway_station_trash.swf</file>
+      <x>257</x>
+      <y>295</y>
+      <xscale>1.23</xscale>
+      <yscale>1.23</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP43" index="3" attached="Y">
+      <file>custom.subway_station_stair.swf</file>
+      <x>507</x>
+      <y>195</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP44" index="4" attached="Y">
+      <file>custom.subway_station_trash.swf</file>
+      <x>578</x>
+      <y>297</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP45" index="5" attached="Y">
+      <file>custom.subway_station_prop01.swf</file>
+      <x>319</x>
+      <y>212</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP46" index="6" attached="Y">
+      <file>custom.subway_station_trash.swf</file>
+      <x>274</x>
+      <y>254</y>
+      <xscale>1.29</xscale>
+      <yscale>1.29</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP47" index="7" attached="Y">
+      <file>custom.subway_station_chair.swf</file>
+      <x>282</x>
+      <y>259</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP48" index="8" attached="Y">
+      <file>custom.subway_station_trash.swf</file>
+      <x>584</x>
+      <y>261</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT3" themecode="common" index="10">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+    <aTranList>
+      <aTran id="127" target="AVATOR1858" type="MotionPath" atype="Character" direction="2" section="6" timing="3" duration="24" delay="0">null</aTran>
+    </aTranList>
+  </scene>
+  <scene id="SCENE17" adelay="141" lock="N" index="13" color="16777215" guid="1A7BCEBE-368C-18C9-C433-99B1E0C49C2C">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_subwaystaton_BG246" index="0">
+      <file>custom.subway_station_bg.swf</file>
+    </bg>
+    <char id="AVATOR1858" index="9" raceCode="1">
+      <action face="1" motionface="1">ugc.284733506.stand.xml</action>
+      <head id="PROP259" raceCode="1">
+        <file>ugc.284733506.head.head_surprised.xml</file>
+      </head>
+      <x>413.7</x>
+      <y>252.7</y>
+      <xscale>1.08</xscale>
+      <yscale>1.08</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="PROP49" index="1" attached="Y">
+      <file>custom.subway_station_train.swf</file>
+      <x>74</x>
+      <y>201</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP42" index="2" attached="Y">
+      <file>custom.subway_station_trash.swf</file>
+      <x>257</x>
+      <y>295</y>
+      <xscale>1.23</xscale>
+      <yscale>1.23</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP43" index="3" attached="Y">
+      <file>custom.subway_station_stair.swf</file>
+      <x>507</x>
+      <y>195</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP44" index="4" attached="Y">
+      <file>custom.subway_station_trash.swf</file>
+      <x>578</x>
+      <y>297</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP45" index="5" attached="Y">
+      <file>custom.subway_station_prop01.swf</file>
+      <x>319</x>
+      <y>212</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP46" index="6" attached="Y">
+      <file>custom.subway_station_trash.swf</file>
+      <x>274</x>
+      <y>254</y>
+      <xscale>1.29</xscale>
+      <yscale>1.29</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP47" index="7" attached="Y">
+      <file>custom.subway_station_chair.swf</file>
+      <x>282</x>
+      <y>259</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP48" index="8" attached="Y">
+      <file>custom.subway_station_trash.swf</file>
+      <x>584</x>
+      <y>261</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT3" themecode="common" index="10">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE19" adelay="69" lock="N" index="14" color="16777215" guid="1CE8C543-495C-CD8D-2DD4-84BDD6DDB49E">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_subwaystaton_BG246" index="0">
+      <file>custom.subway_station_bg.swf</file>
+    </bg>
+    <char id="AVATOR1858" index="9" raceCode="1">
+      <action face="1,1" motionface="1">ugc.284733506.walk.xml</action>
+      <head id="PROP283" raceCode="1">
+        <file>ugc.284733506.head.head_happy.xml</file>
+      </head>
+      <x>413.7,12.5</x>
+      <y>252.7,234.3</y>
+      <xscale>1.08,1.08</xscale>
+      <yscale>1.08,1.08</yscale>
+      <rotation>0,0</rotation>
+      <assetMotion ver="2"/>
+    </char>
+    <prop id="PROP49" index="1" attached="Y">
+      <file>custom.subway_station_train.swf</file>
+      <x>74</x>
+      <y>201</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP42" index="2" attached="Y">
+      <file>custom.subway_station_trash.swf</file>
+      <x>257</x>
+      <y>295</y>
+      <xscale>1.23</xscale>
+      <yscale>1.23</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP43" index="3" attached="Y">
+      <file>custom.subway_station_stair.swf</file>
+      <x>507</x>
+      <y>195</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP44" index="4" attached="Y">
+      <file>custom.subway_station_trash.swf</file>
+      <x>578</x>
+      <y>297</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP45" index="5" attached="Y">
+      <file>custom.subway_station_prop01.swf</file>
+      <x>319</x>
+      <y>212</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP46" index="6" attached="Y">
+      <file>custom.subway_station_trash.swf</file>
+      <x>274</x>
+      <y>254</y>
+      <xscale>1.29</xscale>
+      <yscale>1.29</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP47" index="7" attached="Y">
+      <file>custom.subway_station_chair.swf</file>
+      <x>282</x>
+      <y>259</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP48" index="8" attached="Y">
+      <file>custom.subway_station_trash.swf</file>
+      <x>584</x>
+      <y>261</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT3" themecode="common" index="10">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+    <aTranList>
+      <aTran id="128" target="AVATOR1858" type="MotionPath" atype="Character" direction="2" section="6" timing="3" duration="24" delay="0">null</aTran>
+    </aTranList>
+  </scene>
+  <scene id="SCENE21" adelay="60" lock="N" index="15" color="16777215" guid="FFE62660-76A3-60C6-77BE-7BCE81F112EC">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_subwaystaton_BG246" index="0">
+      <file>custom.subway_station_bg.swf</file>
+    </bg>
+    <prop id="PROP49" index="1" attached="Y">
+      <file>custom.subway_station_train.swf</file>
+      <x>807.1</x>
+      <y>142.4</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP42" index="2" attached="Y">
+      <file>custom.subway_station_trash.swf</file>
+      <x>257</x>
+      <y>295</y>
+      <xscale>1.23</xscale>
+      <yscale>1.23</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP43" index="3" attached="Y">
+      <file>custom.subway_station_stair.swf</file>
+      <x>507</x>
+      <y>195</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP44" index="4" attached="Y">
+      <file>custom.subway_station_trash.swf</file>
+      <x>578</x>
+      <y>297</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP45" index="5" attached="Y">
+      <file>custom.subway_station_prop01.swf</file>
+      <x>319</x>
+      <y>212</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP46" index="6" attached="Y">
+      <file>custom.subway_station_trash.swf</file>
+      <x>274</x>
+      <y>254</y>
+      <xscale>1.29</xscale>
+      <yscale>1.29</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP47" index="7" attached="Y">
+      <file>custom.subway_station_chair.swf</file>
+      <x>282</x>
+      <y>259</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP48" index="8" attached="Y">
+      <file>custom.subway_station_trash.swf</file>
+      <x>584</x>
+      <y>261</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT3" themecode="common" index="9">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE22" adelay="60" lock="N" index="16" color="16777215" guid="ABE34DB5-1E29-58DB-9B5F-A91649764130">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_subwaystaton_BG246" index="0">
+      <file>custom.subway_station_bg.swf</file>
+    </bg>
+    <char id="AVATOR2319" index="9" raceCode="1">
+      <action face="1,1" motionface="1">ugc.284733881.run.xml</action>
+      <head id="PROP317" raceCode="1">
+        <file>ugc.284733881.head.head_shocked.xml</file>
+      </head>
+      <x>539.1,382.9</x>
+      <y>169.9,288.7</y>
+      <xscale>0.62,0.62</xscale>
+      <yscale>0.62,0.62</yscale>
+      <rotation>0,0</rotation>
+      <assetMotion ver="2"/>
+    </char>
+    <prop id="PROP49" index="1" attached="Y">
+      <file>custom.subway_station_train.swf</file>
+      <x>807.1</x>
+      <y>142.4</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP42" index="2" attached="Y">
+      <file>custom.subway_station_trash.swf</file>
+      <x>257</x>
+      <y>295</y>
+      <xscale>1.23</xscale>
+      <yscale>1.23</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP43" index="3" attached="Y">
+      <file>custom.subway_station_stair.swf</file>
+      <x>507</x>
+      <y>195</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP44" index="4" attached="Y">
+      <file>custom.subway_station_trash.swf</file>
+      <x>578</x>
+      <y>297</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP45" index="5" attached="Y">
+      <file>custom.subway_station_prop01.swf</file>
+      <x>319</x>
+      <y>212</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP46" index="6" attached="Y">
+      <file>custom.subway_station_trash.swf</file>
+      <x>274</x>
+      <y>254</y>
+      <xscale>1.29</xscale>
+      <yscale>1.29</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP47" index="7" attached="Y">
+      <file>custom.subway_station_chair.swf</file>
+      <x>282</x>
+      <y>259</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP48" index="8" attached="Y">
+      <file>custom.subway_station_trash.swf</file>
+      <x>584</x>
+      <y>261</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT3" themecode="common" index="10">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+    <aTranList>
+      <aTran id="129" target="AVATOR2319" type="MotionPath" atype="Character" direction="2" section="6" timing="3" duration="24" delay="0">null</aTran>
+    </aTranList>
+  </scene>
+  <scene id="SCENE23" adelay="417" lock="N" index="17" color="16777215" guid="5DF3688B-4A6D-8888-C987-66D11DB57560">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_subwaystaton_BG246" index="0">
+      <file>custom.subway_station_bg.swf</file>
+    </bg>
+    <char id="AVATOR2319" index="9" raceCode="1">
+      <action face="1" motionface="1">ugc.284733881.dance.xml</action>
+      <head id="PROP83" raceCode="1">
+        <file>ugc.284733881.head.head_cry.xml</file>
+      </head>
+      <x>382.9</x>
+      <y>289.5</y>
+      <xscale>0.72</xscale>
+      <yscale>0.72</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="PROP49" index="1" attached="Y">
+      <file>custom.subway_station_train.swf</file>
+      <x>807.1</x>
+      <y>142.4</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP42" index="2" attached="Y">
+      <file>custom.subway_station_trash.swf</file>
+      <x>257</x>
+      <y>295</y>
+      <xscale>1.23</xscale>
+      <yscale>1.23</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP43" index="3" attached="Y">
+      <file>custom.subway_station_stair.swf</file>
+      <x>507</x>
+      <y>195</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP44" index="4" attached="Y">
+      <file>custom.subway_station_trash.swf</file>
+      <x>578</x>
+      <y>297</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP45" index="5" attached="Y">
+      <file>custom.subway_station_prop01.swf</file>
+      <x>319</x>
+      <y>212</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP46" index="6" attached="Y">
+      <file>custom.subway_station_trash.swf</file>
+      <x>274</x>
+      <y>254</y>
+      <xscale>1.29</xscale>
+      <yscale>1.29</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP47" index="7" attached="Y">
+      <file>custom.subway_station_chair.swf</file>
+      <x>282</x>
+      <y>259</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP48" index="8" attached="Y">
+      <file>custom.subway_station_trash.swf</file>
+      <x>584</x>
+      <y>261</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT3" themecode="common" index="10">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE24" adelay="129" lock="N" index="18" color="16777215" guid="4D3E8206-F0DA-E93C-CC55-7021BDEF03BD" combgId="custom.cbg_subway_train">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_subway_train_BG137" index="0">
+      <file>custom.subway_train_bg.swf</file>
+    </bg>
+    <char id="AVATOR2363" index="5" raceCode="1">
+      <action face="1" motionface="1">ugc.284733506.sit.xml</action>
+      <head id="PROP87" raceCode="1">
+        <file>ugc.284733506.head.head_talk_happy.xml</file>
+      </head>
+      <x>261.1</x>
+      <y>233.7</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="cbg_subway_train_PROP102" index="1" attached="Y">
+      <file>custom.subway_train_chair02.swf</file>
+      <x>164.4</x>
+      <y>249.1</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_subway_train_PROP99" index="2" attached="Y">
+      <file>custom.subway_train_door.swf</file>
+      <x>510</x>
+      <y>203</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_subway_train_PROP101" index="3" attached="Y">
+      <file>custom.subway_train_chair.swf</file>
+      <x>283</x>
+      <y>289</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_subway_train_PROP100" index="4" attached="Y">
+      <file>custom.subway_train_stand.swf</file>
+      <x>282</x>
+      <y>144</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT3" themecode="common" index="6">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE25" adelay="60" lock="N" index="19" color="16777215" guid="4F89D3C6-FB84-3663-FC3B-8278375B8C0C">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_subway_train_BG137" index="0">
+      <file>custom.subway_train_bg.swf</file>
+    </bg>
+    <char id="AVATOR2363" index="5" raceCode="1">
+      <action face="1" motionface="1">ugc.284733506.sit.xml</action>
+      <head id="PROP352" raceCode="1">
+        <file>ugc.284733506.head.head_talk_happy.xml</file>
+      </head>
+      <x>261.1</x>
+      <y>233.7</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="cbg_subway_train_PROP102" index="1" attached="Y">
+      <file>custom.subway_train_chair02.swf</file>
+      <x>164.4</x>
+      <y>249.1</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_subway_train_PROP99" index="2" attached="Y">
+      <file>custom.subway_train_door.swf</file>
+      <x>510</x>
+      <y>203</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_subway_train_PROP101" index="3" attached="Y">
+      <file>custom.subway_train_chair.swf</file>
+      <x>283</x>
+      <y>289</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_subway_train_PROP100" index="4" attached="Y">
+      <file>custom.subway_train_stand.swf</file>
+      <x>282</x>
+      <y>144</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT3" themecode="common" index="6">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE26" adelay="405" lock="N" index="20" color="16777215" guid="39337095-0626-620C-756C-DBD15A6ABBE1" combgId="custom.cbg_sittingroom">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_sittingroom_BG260" index="0">
+      <file>custom.sitting_room_bg.swf</file>
+    </bg>
+    <char id="AVATOR2397" index="5" raceCode="1">
+      <action face="1" motionface="1">ugc.284733881.dance.xml</action>
+      <head id="PROP90" raceCode="1">
+        <file>ugc.284733881.head.head_cry.xml</file>
+      </head>
+      <x>278</x>
+      <y>227.2</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="cbg_sittingroom_PROP74" index="1" attached="Y">
+      <file>custom.sitting_room_lamp.swf</file>
+      <x>446</x>
+      <y>246</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP8" index="2" attached="Y">
+      <file>custom.sitting_room_sofa2.swf</file>
+      <x>290</x>
+      <y>256</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_sittingroom_PROP75" index="3" attached="Y">
+      <file>custom.sitting_room_plant.swf</file>
+      <x>107</x>
+      <y>245</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP9" index="4" attached="Y">
+      <file>custom.sitting_room_sofa.swf</file>
+      <x>561</x>
+      <y>279</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT3" themecode="common" index="6">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE27" adelay="60" lock="N" index="21" color="16777215" guid="24B1D256-5185-3ED2-838B-DD456E3D93BF" combgId="common.cbg_ncc_house">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_ncc_house_BG7" index="0">
+      <file>common.ncc_low.swf</file>
+      <color r="colorB">10066329</color>
+      <color r="colorA">10079283</color>
+    </bg>
+    <char id="AVATOR2426" index="16" raceCode="1">
+      <action face="1" motionface="1">ugc.284733506.stand.xml</action>
+      <head id="PROP368" raceCode="1">
+        <file>ugc.284733506.head.head_surprised.xml</file>
+      </head>
+      <x>322.8</x>
+      <y>228.9</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="PROP38" index="1" attached="Y">
+      <file>common.bushes.swf</file>
+      <x>384.2</x>
+      <y>177.5</y>
+      <xscale>2.06</xscale>
+      <yscale>2.06</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP39" index="2" attached="Y">
+      <file>common.ncc_hhouse02.swf</file>
+      <x>571.3</x>
+      <y>123.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP40" index="3" attached="Y">
+      <file>common.bushes.swf</file>
+      <x>432</x>
+      <y>207.5</y>
+      <xscale>1.2</xscale>
+      <yscale>1.2</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP41" index="4" attached="Y">
+      <file>common.ncc_hhouse01.swf</file>
+      <x>150.7</x>
+      <y>119.2</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP42" index="5" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>638.5</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP43" index="6" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>542.8</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP44" index="7" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>444.5</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP45" index="8" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>346.8</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP46" index="9" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>186.7</x>
+      <y>249.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP47" index="10" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath02.swf</file>
+      <x>249.5</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP48" index="11" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>153.5</x>
+      <y>283.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP49" index="12" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>56.4</x>
+      <y>283.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP50" index="13" attached="Y">
+      <file>common.msp_ncc_hsign.msp_ncc_hsign_ncc_hsign03.swf</file>
+      <x>117.7</x>
+      <y>238.8</y>
+      <xscale>0.65</xscale>
+      <yscale>0.65</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP51" index="14" attached="Y">
+      <file>common.msp_ncc_hsign.msp_ncc_hsign_ncc_hsign01.swf</file>
+      <x>292.9</x>
+      <y>218.4</y>
+      <xscale>1.17</xscale>
+      <yscale>1.17</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP52" index="15" attached="Y">
+      <file>common.ncc_htree.swf</file>
+      <x>552.2</x>
+      <y>127.5</y>
+      <xscale>0.8</xscale>
+      <yscale>0.8</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT3" themecode="common" index="17">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE28" adelay="291" lock="N" index="22" color="16777215" guid="18D09300-9658-5456-0DDC-22A5B06DC3FC">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_ncc_house_BG7" index="0">
+      <file>common.ncc_low.swf</file>
+      <color r="colorB">10066329</color>
+      <color r="colorA">10079283</color>
+    </bg>
+    <char id="AVATOR2426" index="14" raceCode="1">
+      <action face="1" motionface="1">ugc.284733506.dance.xml</action>
+      <head id="PROP386" raceCode="1">
+        <file>ugc.284733506.head.head_talk_happy.xml</file>
+      </head>
+      <x>322.8</x>
+      <y>228.9</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="PROP38" index="1" attached="Y">
+      <file>common.bushes.swf</file>
+      <x>384.2</x>
+      <y>177.5</y>
+      <xscale>2.06</xscale>
+      <yscale>2.06</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP39" index="2" attached="Y">
+      <file>common.ncc_hhouse02.swf</file>
+      <x>571.3</x>
+      <y>123.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP40" index="3" attached="Y">
+      <file>common.bushes.swf</file>
+      <x>432</x>
+      <y>207.5</y>
+      <xscale>1.2</xscale>
+      <yscale>1.2</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP41" index="4" attached="Y">
+      <file>common.ncc_hhouse01.swf</file>
+      <x>150.7</x>
+      <y>119.2</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP42" index="5" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>638.5</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP43" index="6" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>542.8</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP44" index="7" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>444.5</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP45" index="8" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>346.8</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP46" index="9" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>186.7</x>
+      <y>249.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP47" index="10" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath02.swf</file>
+      <x>249.5</x>
+      <y>283</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP48" index="11" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>153.5</x>
+      <y>283.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP49" index="12" attached="Y">
+      <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+      <x>56.4</x>
+      <y>283.5</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>-1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="PROP52" index="13" attached="Y">
+      <file>common.ncc_htree.swf</file>
+      <x>552.2</x>
+      <y>127.5</y>
+      <xscale>0.8</xscale>
+      <yscale>0.8</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT3" themecode="common" index="15">
+      <effect x="0" y="0" w="550" h="310" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <sound id="SOUND1" index="0" track="0" vol="1" tts="1">
+    <sfile>ugc.284861247.mp3</sfile>
+    <start>1</start>
+    <stop>192</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+    <ttsdata>
+      <type><![CDATA[tts]]></type>
+      <text><![CDATA[Man, I can't stand living with my dad. He always grounds me and I am sick of it. I got to find away to have freedom. ]]></text>
+      <voice><![CDATA[David]]></voice>
+    </ttsdata>
+  </sound>
+  <sound id="SOUND3" index="1" track="0" vol="1" tts="1">
+    <sfile>ugc.284861354.mp3</sfile>
+    <start>253</start>
+    <stop>375</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+    <ttsdata>
+      <type><![CDATA[tts]]></type>
+      <text><![CDATA[I know, I will go to happyland. Which is a place where parents can't go to. ]]></text>
+      <voice><![CDATA[David]]></voice>
+    </ttsdata>
+  </sound>
+  <sound id="SOUND5" index="2" track="0" vol="1" tts="1">
+    <sfile>ugc.284861544.mp3</sfile>
+    <start>376</start>
+    <stop>519</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+    <ttsdata>
+      <type><![CDATA[tts]]></type>
+      <text><![CDATA[YAY YAY YAY YAY YAY YAY YAY YAY YAY YAY YAY YAY YAY YAY YAY YAY YAY YAY YAY YAY YAY YAY YAY YAY]]></text>
+      <voice><![CDATA[David]]></voice>
+    </ttsdata>
+  </sound>
+  <sound id="SOUND9" index="3" track="0" vol="1" tts="1">
+    <sfile>ugc.284861649.mp3</sfile>
+    <start>520</start>
+    <stop>606</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+    <ttsdata>
+      <type><![CDATA[tts]]></type>
+      <text><![CDATA[I got to leave now. They can give me what ever I want. 
+]]></text>
+      <voice><![CDATA[David]]></voice>
+    </ttsdata>
+  </sound>
+  <sound id="SOUND12" index="4" track="0" vol="1" tts="1">
+    <sfile>ugc.284861909.mp3</sfile>
+    <start>667</start>
+    <stop>744</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+    <ttsdata>
+      <type><![CDATA[tts]]></type>
+      <text><![CDATA[Stop it, caillou. Where do you think you're going?
+]]></text>
+      <voice><![CDATA[eric]]></voice>
+    </ttsdata>
+  </sound>
+  <sound id="SOUND14" index="5" track="0" vol="1" tts="1">
+    <sfile>ugc.284862011.mp3</sfile>
+    <start>745</start>
+    <stop>858</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+    <ttsdata>
+      <type><![CDATA[tts]]></type>
+      <text><![CDATA[I am going to happyland, because you always ground  me and I am sick of it. ]]></text>
+      <voice><![CDATA[David]]></voice>
+    </ttsdata>
+  </sound>
+  <sound id="SOUND16" index="6" track="0" vol="1" tts="1">
+    <sfile>ugc.284862106.mp3</sfile>
+    <start>859</start>
+    <stop>930</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+    <ttsdata>
+      <type><![CDATA[tts]]></type>
+      <text><![CDATA[No you're not. You are coming home with me now. ]]></text>
+      <voice><![CDATA[eric]]></voice>
+    </ttsdata>
+  </sound>
+  <sound id="SOUND18" index="7" track="0" vol="1" tts="1">
+    <sfile>ugc.284862218.mp3</sfile>
+    <start>931</start>
+    <stop>1032</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+    <ttsdata>
+      <type><![CDATA[tts]]></type>
+      <text><![CDATA[No. I am leaving now. Besides I am almost to the train station. ]]></text>
+      <voice><![CDATA[David]]></voice>
+    </ttsdata>
+  </sound>
+  <sound id="SOUND20" index="8" track="0" vol="1" tts="1">
+    <sfile>ugc.284862407.mp3</sfile>
+    <start>1093</start>
+    <stop>1128</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+    <ttsdata>
+      <type><![CDATA[tts]]></type>
+      <text><![CDATA[Get back here now. ]]></text>
+      <voice><![CDATA[eric]]></voice>
+    </ttsdata>
+  </sound>
+  <sound id="SOUND22" index="9" track="0" vol="1" tts="1">
+    <sfile>ugc.284862896.mp3</sfile>
+    <start>1213</start>
+    <stop>1353</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+    <ttsdata>
+      <type><![CDATA[tts]]></type>
+      <text><![CDATA[YAY. I made it. And the train to  happyland is here.  YAY YAY YAY YAY YAY YAY YAY YAY YAY YAY YAY YAY YAY.]]></text>
+      <voice><![CDATA[David]]></voice>
+    </ttsdata>
+  </sound>
+  <sound id="SOUND24" index="10" track="0" vol="1" tts="1">
+    <sfile>ugc.284863116.mp3</sfile>
+    <start>1354</start>
+    <stop>1422</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+    <ttsdata>
+      <type><![CDATA[tts]]></type>
+      <text><![CDATA[Now to get on the train before dad gets here. 
+]]></text>
+      <voice><![CDATA[David]]></voice>
+    </ttsdata>
+  </sound>
+  <sound id="SOUND28" index="11" track="0" vol="1" tts="1">
+    <sfile>ugc.284864953.mp3</sfile>
+    <start>1543</start>
+    <stop>1959</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+    <ttsdata>
+      <type><![CDATA[tts]]></type>
+      <text><![CDATA[Oh no. I was too late. Caillou already left.  NO NO NO NO NO NO NO NO NO NO NO NO NO NO NO NO NO NO NO NO. WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAa]]></text>
+      <voice><![CDATA[eric]]></voice>
+    </ttsdata>
+  </sound>
+  <sound id="SOUND31" index="12" track="0" vol="1" tts="1">
+    <sfile>ugc.284863574.mp3</sfile>
+    <start>1960</start>
+    <stop>2088</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+    <ttsdata>
+      <type><![CDATA[tts]]></type>
+      <text><![CDATA[I did it. No more being grounded from my dad. YAY YAY YAY YAY YAY YAY]]></text>
+      <voice><![CDATA[David]]></voice>
+    </ttsdata>
+  </sound>
+  <sound id="SOUND34" index="13" track="0" vol="1" tts="1">
+    <sfile>ugc.284863755.mp3</sfile>
+    <start>2149</start>
+    <stop>2553</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+    <ttsdata>
+      <type><![CDATA[tts]]></type>
+      <text><![CDATA[NO NO NO NO NO NO NO NO NO NO NO NO NO NO NO NO NO. I loved grounding my son. If he ever comes back. He is grounded. WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></text>
+      <voice><![CDATA[eric]]></voice>
+    </ttsdata>
+  </sound>
+  <sound id="SOUND38" index="14" track="0" vol="1" tts="1">
+    <sfile>ugc.284865172.mp3</sfile>
+    <start>2614</start>
+    <stop>2904</stop>
+    <fadein duration="0" vol="0"/>
+    <fadeout duration="0" vol="0"/>
+    <ttsdata>
+      <type><![CDATA[tts]]></type>
+      <text><![CDATA[I did it. No more being tortured or grounded by my dad. I won't have no more punishment days. I finally found freedom.  YAY YAY YAY YAY YAY YAY YAY YAY YAY YAY YAY YAY YAY YAY YAY ]]></text>
+      <voice><![CDATA[David]]></voice>
+    </ttsdata>
+  </sound>
+  <linkage>SOUND1,~~~AVATOR1858,SCENE0~~~</linkage>
+  <linkage>SOUND3,~~~AVATOR1858,SCENE2~~~</linkage>
+  <linkage>SOUND5,~~~AVATOR1858,SCENE3~~~</linkage>
+  <linkage>SOUND9,~~~AVATOR1858,SCENE4~~~</linkage>
+  <linkage>SOUND12,~~~AVATOR1984,SCENE8~~~</linkage>
+  <linkage>SOUND14,~~~AVATOR1858,SCENE9~~~</linkage>
+  <linkage>SOUND16,~~~AVATOR1984,SCENE10~~~</linkage>
+  <linkage>SOUND18,~~~AVATOR1858,SCENE11~~~</linkage>
+  <linkage>SOUND20,~~~AVATOR1984,SCENE15~~~</linkage>
+  <linkage>SOUND22,~~~AVATOR1858,SCENE17~~~</linkage>
+  <linkage>SOUND24,~~~AVATOR1858,SCENE19~~~</linkage>
+  <linkage>SOUND28,~~~AVATOR2319,SCENE23~~~</linkage>
+  <linkage>SOUND31,~~~AVATOR2363,SCENE24~~~</linkage>
+  <linkage>SOUND34,~~~AVATOR2397,SCENE26~~~</linkage>
+  <linkage>SOUND38,~~~AVATOR2426,SCENE28~~~</linkage>
+</film>
