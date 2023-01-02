@@ -142,7 +142,7 @@
 
 	function deleteMovie(id) {
 		var deleteConfirm = confirm("Are you sure you want to delete this movie?");
-		if(deleteConfirm) fetch(`/deleteMovie/${id}`).then(() => document.getElementById(id).remove());
+		if(deleteConfirm) fetch(`/ajax/deleteMovie/${id}`).then(() => document.getElementById(id).remove());
 	}
 </script>
 
