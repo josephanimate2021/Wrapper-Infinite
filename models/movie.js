@@ -27,6 +27,13 @@ exports.unzipXmls = async function(id, mode) {
 	for (let key of keys) {
 		const item = result.files[key];
 		fs.writeFileSync(`./saved/movies/${mode}-${id}.xml`, Buffer.from(await item.async("arraybuffer")));
+		if (mode == "starter") {
+			this.meta(id).then(sMeta => {
+				if (!fs.existsSync('./saved/meta')) fs.mkdirSync('./saved/meta');
+				fs.writeFileSync(`./saved/meta/${id}-title.txt`, sMeta.title);
+				fs.writeFileSync(`./saved/meta/${id}-tag.txt`, sMeta.tags);
+			})
+		}
 	}
 };
 exports.list = function(starter = false) {
@@ -39,6 +46,7 @@ exports.list = function(starter = false) {
 		if (!fs.existsSync(`./saved/movies/${mode}-${id}.xml`)) return;
 		const xml = fs.existsSync(`./saved/movies/${mode}-${id}.xml`);
 		const png = fs.existsSync(`./saved/movies/${mode}-${id}.png`);
+		// movie meta
 		const buffer = fs.readFileSync(`./saved/movies/${mode}-${id}.xml`);
 		const begTitle = buffer.indexOf("<title>") + 16;
 		const endTitle = buffer.indexOf("]]></title>");
@@ -58,6 +66,24 @@ exports.list = function(starter = false) {
 	});
 	console.log(table);
 	return table;
+};
+// starter meta
+exports.meta = function(id) {
+	return new Promise(async res => {
+		const fn = `./saved/movies/starter-${id}.xml`;
+		const buffer = fs.readFileSync(fn);
+		const begTitle = buffer.indexOf("<title>") + 16;
+		const endTitle = buffer.indexOf("]]></title>");
+		const title = buffer.slice(begTitle, endTitle).toString().trim();
+		const begTag = buffer.indexOf("<tag>") + 14;
+		const endTag = buffer.indexOf("]]></tag>");
+		const tag = buffer.slice(begTag, endTag).toString().trim();
+		res({
+			title: title,
+			tags: tag,
+			id: id,
+		});
+	});
 };
 exports.generateThumbFromUrl = function() {
 	return new Promise((res, rej) => {
@@ -100,6 +126,5 @@ exports.save = function(data, starter = false) {
 	fs.writeFileSync(`${id}.zip`, body);
 	fs.writeFileSync(`./saved/movies/${mode}-${id}.png`, thumb);
 	this.unzipXmls(id, mode);
-	fs.unlinkSync(`${id}.zip`);
 	return id;
 };

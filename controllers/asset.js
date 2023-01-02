@@ -109,8 +109,22 @@ router.get("/assets/:assetId", (req, res) => res.end(Asset.load(req.params.asset
 /**
 delete an asset
 **/
-router.get("/assets/delete/", (req, res) => {
-	res.end("1")
+router.post("/asset/get", (req, res) => {
+	const id = req.body?.data.id || req.body?.data.starter_id;
+	const info = {
+		id: id,
+		title: fs.readFileSync(`./saved/meta/${id}-title.txt`, 'utf-8'),
+		sceneCount: 1,
+		assetId: id,
+		share: {
+			type: "none"
+		},
+		published: ""
+	}
+	res.json({
+		status: "ok",
+		data: info
+	});
 })
 
 module.exports = router
