@@ -62,11 +62,10 @@ async function listAssets(data) {
 list all assets
 **/
 router.post(["/assets/team", "/assets/shared"], (req, res) => {
-	listAssets(req.body.data)
-		.then(xml => {
-			res.setHeader("Content-Type", "application/json")
-			res.json({status: "ok", data: { xml: xml }});
-		})
+	listAssets(req.body.data).then(xml => {
+		res.setHeader("Content-Type", "application/json")
+		res.json({status: "ok", data: { xml: xml }});
+	})
 })
 router.post("/getUserAssetsXml/", (req, res) => {
 	listAssets(req.body).then(xml => {
