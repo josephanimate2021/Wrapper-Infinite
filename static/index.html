@@ -131,7 +131,9 @@
 	}
 
 	fetch('/ajax/movie/list').then(response => {
-		response.json().then(data => loadRows(data.movies));
+		response.json().then(data => {
+			if (data.status == "ok") loadRows(data.movies)
+		});
 	});
 
 	function popup(id) {
