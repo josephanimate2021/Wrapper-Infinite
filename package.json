@@ -14,7 +14,7 @@
 		"compression": "^1.7.4",
 		"cookie-parser": "^1.4.6",
 		"express": "^4.17.2",
-		"formidable": "^2.0.1",
+		"formidable": "^1.2.1",
 		"jszip": "^3.7.1",
 		"morgan": "^1.10.0",
 		"mp3-duration": "github:rocka/mp3-duration",

@@ -113,42 +113,6 @@ head
     padding: 4px 10px;
     color: #fff;
     }
-// Asset Importer
-#import_popup_container(style='display:none')
-  #import_popup
-    h2#import-an-asset Import an Asset
-    a.close-button(onclick='hideImporter()') X
-    // Import form
-    #import_image
-      button(onclick="document.getElementById('import_as').style.display = 'block'") Upload An Asset As...
-      p
-        | Because everything else is in beta, 
-        br
-        | prop uploading is only supported. 
-        br
-        | no worries, everything else is bound to come soon.
-      #import_as(style='display:none')
-        center
-          button(onclick="document.getElementById('import_as').style.display = 'none'") &uarr;
-        br
-        button(onclick="document.getElementById('holdable').click()") Holdable Prop
-        br
-        br
-        button(onclick="document.getElementById('headable').click()") Headable Prop
-        br
-        br
-        button(onclick="document.getElementById('wearable').click()") Wearable Prop
-        br
-        br
-        button(onclick="document.getElementById('placeable').click()") Other Prop
-        form(enctype='multipart/form-data' style='display:none' action='/upload_prop' method='post' target='dummy')
-          input#placeable(type='file' onchange='this.form.submit()' name='import' accept='.png,.jpg')
-        form(enctype='multipart/form-data' style='display:none' action='/upload_prop_holdable' method='post' target='dummy')
-          input#holdable(type='file' onchange='this.form.submit()' name='import' accept='.png,.jpg')
-        form(enctype='multipart/form-data' style='display:none' action='/upload_prop_headable' method='post' target='dummy')
-          input#headable(type='file' onchange='this.form.submit()' name='import' accept='.png,.jpg')
-        form(enctype='multipart/form-data' style='display:none' action='/upload_prop_wearable' method='post' target='dummy')
-          input#wearable(type='file' onchange='this.form.submit()' name='import' accept='.png,.jpg')
 // Video Previewer
 #preview_popup_container(style='display:none')
   #preview_popup
@@ -222,7 +186,7 @@ script.
   ///
   // Show upload window
   function showImporter() {
-  $("#import_popup_container").show();
+    alert('Importing Is In Beta.')
   };
   ///
   /// Other stuff

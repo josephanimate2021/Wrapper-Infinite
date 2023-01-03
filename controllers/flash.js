@@ -1,10 +1,13 @@
 const express = require("express"),
-	router = express.Router()
+	router = express.Router(),
+	formidable = require("formidable"),
+	asset = require("../models/asset"),
+	fs = require("fs")
 
 router.get("/cc", (req, res) => {
 	const flashvars = new URLSearchParams({
 		appCode: "go",
-		bs: req.body.bs || "adam",
+		bs: req.query.bs || "adam",
 		ctc: "go",
 		isEmbed: 1,
 		isLogin: "Y",
@@ -12,14 +15,14 @@ router.get("/cc", (req, res) => {
 		original_asset_id: req.query.id || null,
 		page: "",
 		siteId: "go",
-		themeId: req.body.themeId || "custom",
+		themeId: req.query.themeId || "family",
 		tlang: "en_US",
 		ut: 60,
 		apiserver: "/",
-		storePath: "../static/store/<store>",
-		clientThemePath: "../static/<client_theme>",
+		storePath: "/static/store/<store>",
+		clientThemePath: "/static/<client_theme>",
 	}).toString()
-	res.render("flash", { title: "Character Creator", swf: "../static/animation/cc.swf", flashvars: flashvars, extra: "<script>function characterSaved() {$(window).attr('location', '/')}</script>" })
+	res.render("flash", { title: "Character Creator", swf: "/static/animation/cc.swf", flashvars: flashvars, extra: "<script>function characterSaved() {$(window).attr('location', '/')}</script>" })
 });
 router.get("/cc_browser", (req, res) => {
 	const flashvars = new URLSearchParams({
@@ -31,14 +34,14 @@ router.get("/cc_browser", (req, res) => {
 		m_mode: "school",
 		page: "",
 		siteId: "go",
-		themeId: req.body.themeId || "family",
+		themeId: req.query.themeId || "family",
 		tlang: "en_US",
 		ut: 60,
 		apiserver: "/",
-		storePath: "../static/store/<store>",
-		clientThemePath: "../static/<client_theme>",
+		storePath: "/static/store/<store>",
+		clientThemePath: "/static/<client_theme>",
 	}).toString()
-	res.render("flash", { title: "Character Browser", swf: "../static/animation/cc_browser.swf", flashvars: flashvars, extra: "" })
+	res.render("flash", { title: "Character Browser", swf: "/static/animation/cc_browser.swf", flashvars: flashvars, extra: "" })
 });
 
 router.get("/studio", (req, res) => {
@@ -70,11 +73,11 @@ router.get("/player", (req, res) => {
 		isWide: 1,
 		ut: 50,
 		apiserver: "/",
-		storePath: "../static/store/<store>",
-		clientThemePath: "../static/<client_theme>",
+		storePath: "/static/store/<store>",
+		clientThemePath: "/static/<client_theme>",
 		movieId: req.query.movieId || ""
 	}).toString()
-	res.render("flash", { title: "Video Player", swf: "../static/animation/player.swf", flashvars: flashvars, extra: "" })
+	res.render("flash", { title: "Video Player", swf: "/static/animation/player.swf", flashvars: flashvars, extra: "" })
 });
 
 module.exports = router

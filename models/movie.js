@@ -104,7 +104,12 @@ exports.load = async function(mId) {
 		const parsed = await Parse.pack(buffer);
 		return Buffer.concat([base, parsed]);
 	}
-},
+}
+exports.delete = function(mId, starter = false) {
+	const mode = starter ? "starter" : "movie";
+	fs.unlinkSync(`./saved/movies/${mode}-${mId}.xml`);
+	fs.unlinkSync(`./saved/movies/${mode}-${mId}.png`);
+}
 
 
 
